@@ -2,21 +2,54 @@
 
 Tours and travels api - Node js in backend
 
-# Steps
+## Tech Stack
 
-Create "config.env" file
+**Server:** Node, Express
 
-NODE_ENV=developement
-DATABASE= Database Url
-DATABASE_PASSWORD= Password
-JWT_SECRET= Write a secret JWT key
-JWT_EXPIRES_IN= Time Period
+## Environment Variables
 
-EMAIL_USERNAME= Mail trap username
-EMAIL_PASSWORD= Mail trap password
-EMAIL_HOST= Mail trap host
-EMAIL_PORT= Mail trap port
+To run this project, you will need to add the following environment variables to your config.env file
 
-# Run the server
+`NODE_ENV`
 
-npm start
+`DATABASE`
+
+`DATABASE_PASSWORD`
+
+`JWT_SECRET`
+
+`JWT_EXPIRES_IN`
+
+`EMAIL_USERNAME`
+
+`EMAIL_PASSWORD`
+
+`EMAIL_HOST`
+
+`EMAIL_PORT`
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/aashay28/natours.git
+```
+
+Go to the project directory
+
+```bash
+  cd natours
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
